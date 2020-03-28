@@ -6,9 +6,9 @@ int main(int argc, char **argv) {
   // I am not a floating point expert.  This may be wrong in all sorts
   // of subtle ways.  It happens to work here.
   for (double a = 0.01; a < 7.11; a += 0.01) {
-    for (double b = 0.01; b < 7.11; b += 0.01) {
-      for (double c = 0.01; c < 7.11; c += 0.01) {
-        for (double d = 0.01; d < 7.11; d += 0.01) {
+    for (double b = a; b < 7.11; b += 0.01) {
+      for (double c = b; c < 7.11; c += 0.01) {
+        for (double d = c; d < 7.11; d += 0.01) {
           int product_cents = a * b * c * d * 100.0;
           int sum_cents = (a + b + c + d) * 100.0;
           if (product_cents == 711 && sum_cents == 711) {
