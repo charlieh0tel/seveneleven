@@ -10,3 +10,12 @@ not multiplied. The clerk then added the items together and informed
 the customer that the total was still exactly $7.11.
 
 What are the exact costs of each item?
+
+
+
+
+
+
+Some discussion of an algebraic solution:
+
+http://mathforum.org/library/drmath/view/55897.html
