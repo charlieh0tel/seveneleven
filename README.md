@@ -11,7 +11,7 @@ the customer that the total was still exactly $7.11.
 
 What are the exact costs of each item?
 
-
+---------------------------------------------------------------------------
 
 
 
@@ -19,3 +19,8 @@ What are the exact costs of each item?
 Some discussion of an algebraic solution:
 
 http://mathforum.org/library/drmath/view/55897.html
+
+
+Other solutions:
+
+https://codegolf.stackexchange.com/questions/2884/shortest-code-for-seven-eleven
